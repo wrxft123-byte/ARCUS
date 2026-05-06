@@ -921,7 +921,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 .form-group input {
   width: 100%;
   padding-right: 0%;
-  padding-left: 1rem;
+  padding-left: 16px;
   padding-top: 14px;
   padding-bottom: 14px;
   background-color: #210A0A;
@@ -1586,7 +1586,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     }
 
     .form-group input {
-        padding: 12px 14px;
+      padding-right: 0%;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
         font-size: 1rem;
     }
 
