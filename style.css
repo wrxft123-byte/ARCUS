@@ -920,7 +920,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 .form-group input {
   width: 100%;
-  padding: 14px 16px;
+  padding-right: 0%;
+  padding-left: 1rem;
+  padding-top: 14px;
+  padding-bottom: 14px;
   background-color: #210A0A;
   border: 1px solid  #85877C;
   color: #EBEFDC;
@@ -928,17 +931,16 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   
 }
 
-
-
 .input-with-icon {
   position: relative;
 }
 
 
 
+
 .search-icon {
   position: absolute;
-  right: 1rem;
+  right: 0.1rem;
   top: 50%;
   transform: translateY(-50%);
   color: #85877C;
@@ -978,10 +980,23 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 /* Чекбокс */
 .consent label {
   display: flex;
-  align-items: flex-start;
-  gap: 10px;
+  align-items: center;
+  gap: 0.8rem;
   cursor: pointer;
   font-size: 0.95rem;
+}
+
+.consent label input[type="checkbox"] {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}
+
+.consent label span {
+  flex: 1;
+  display: block;
+  line-height: 1.35;
 }
 
 
